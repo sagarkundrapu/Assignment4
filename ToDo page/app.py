@@ -16,7 +16,7 @@ collection = db.todo_items
 
 @app.route('/')
 def index():
-    return "modda gudu"
+    return render_template('todo.html')
 
 @app.route('/submittodoitem', methods=['GET', 'POST'])
 def submit():
