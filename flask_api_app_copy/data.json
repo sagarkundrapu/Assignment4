@@ -1,39 +1,18 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Alice",
-            "email": "alice@example.com",
-            "age": 28,
-            "is_active": true
-        },
-        {
-            "id": 2,
-            "name": "Bob",
-            "email": "bob@example.com",
-            "age": 34,
-            "is_active": false
-        },
-        {
-            "id": 3,
-            "name": "Charlie",
-            "email": "charlie@example.com",
-            "age": 22,
-            "is_active": true
-        }
-    ],
-    "products": [
-        {
-            "id": 101,
-            "name": "Laptop",
-            "price": 799.99,
-            "in_stock": true
-        },
-        {
-            "id": 102,
-            "name": "Headphones",
-            "price": 59.99,
-            "in_stock": false
-        }
-    ]
+  "id": 101,
+  "name": "Sagar Kundrapu",
+  "age": 22,
+  "isStudent": true,
+  "skills": ["C", "C++", "Java", "Python", "React", "Tailwind"],
+  "education": {
+    "degree": "B.Tech",
+    "branch": "Computer Science",
+    "year": 2025
+  },
+  "hobbies": ["Badminton", "Carroms", "Cricket"],
+  "NCC": {
+    "certificate": "B",
+    "camps_attended": 1,
+    "location": "Gannavaram"
+  }
 }
