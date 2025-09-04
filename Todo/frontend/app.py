@@ -10,8 +10,10 @@ def todo():
 @app.route('/submit', methods=['POST'])
 def submit():
     data = request.form.to_dict()
-    requests.post('http://localhost:5000/submittodoitem', data=data)
-    return ""
+    res = requests.post('http://localhost:5000/submittodoitem', data=data)
+    if res.status_code == 200:
+        return render_template('success.html')
+    
 
 if __name__ == '__main__':
     app.run(debug=True, port=3000, host='0.0.0.0')
